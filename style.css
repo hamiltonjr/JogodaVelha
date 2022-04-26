@@ -1,9 +1,30 @@
 body {
-    background-color: #FFFACD	;
+    background-color: #e7cad4;
     font: normal 20px Arial;
     text-align: center;
 }
 
-quadrado {
-    background-color: #8FBC8F	;
+.quadrado {
+    background-color: #93c593;
+    color: #93c593;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin: 5px;
+    padding: 40px;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.jogador, .vencedor {
+    font-size: 30px;
+    margin: 10px;
+}
+
+button {
+    background-color: #93c593;
+    margin: 10px;
+    height: 30px;
+    width:  100px;
 }
