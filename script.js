@@ -17,14 +17,12 @@ function escolherQuadrado(id) {
 
     if (q.innerHTML !== '-') {
         return;
-    }   
+    }
 
     q.innerHTML = jogador;
     q.style.color = '#000';
 
-    // alterna jogador
     jogador = (jogador === 'X') ? 'O' : 'X';
-
     mudarJogador(jogador);
     checaVencedor();
 
@@ -40,6 +38,7 @@ function mudarJogador(valor) {
 
 
 function checaVencedor() {
+
     var q1 = document.getElementById(1);
     var q2 = document.getElementById(2);
     var q3 = document.getElementById(3);
