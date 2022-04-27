@@ -1,4 +1,4 @@
-# JogodaVelha
+# Jogo da Velha
 
 Esse app é um jogo da velha simples feito como treinamento no Bootcamp da Órbi.
 
